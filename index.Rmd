@@ -173,7 +173,7 @@ background-size: 150px
 
 ### Translating the lyrics: `{googleLanguageR}`
 
-+ Calls the 'Cloud Translation' API <https://cloud.google.com/translate/> for detection and translation of text
++ Calls the 'Cloud Translation' API for detection and <br> translation of text <https://cloud.google.com/translate/>
 
 --
 
@@ -199,9 +199,9 @@ background-size: 150px
 
 + Package building with `{usethis}`
 
-+ Practice "shiny skills". `r emo::ji("rolling")`  
++ Practice "shiny skills" . `r emo::ji("rolling")`  
 
-+ Write a small shiny app and learn how it should be included in a package
++ Write a small __shiny__ app and learn how it should be included in a package `runExample()`
 
 ---
 
