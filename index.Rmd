@@ -208,7 +208,19 @@ background-size: 150px
 
 ```{r, eval = T, message=F, warning=F}
 # install.packages("remotes")
-#remotes::install_github("AndreaSanchezTapia/sambaR")
+#remotes::install_github("liibre/sambaR")
+library(sambaR)
+library(googleLanguageR)
+song <- translate_lyrics("chico buarque", "apesar de voce")
+song
+```
+
+---
+
+
+```{r, eval = T, message=F, warning=F}
+# install.packages("remotes")
+#remotes::install_github("liibre/sambaR")
 library(sambaR)
 library(googleLanguageR)
 song <- translate_lyrics("chico buarque", "apesar de voce", "en")

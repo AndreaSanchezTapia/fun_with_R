@@ -178,7 +178,37 @@ background-size: 150px
 
 ```r
 # install.packages("remotes")
-#remotes::install_github("AndreaSanchezTapia/sambaR")
+#remotes::install_github("liibre/sambaR")
+library(sambaR)
+library(googleLanguageR)
+song &lt;- translate_lyrics("chico buarque", "apesar de voce")
+song
+```
+
+```
+## # A tibble: 62 x 1
+##    lyric                             
+##    &lt;chr&gt;                             
+##  1 Amanhã vai ser outro dia          
+##  2 Amanhã vai ser outro dia          
+##  3 Amanhã vai ser outro dia          
+##  4 Hoje você é quem manda            
+##  5 Falou, tá falado                  
+##  6 Não tem discussão, não            
+##  7 A minha gente hoje anda           
+##  8 Falando de lado e olhando pro chão
+##  9 Viu?                              
+## 10 Você que inventou esse Estado     
+## # … with 52 more rows
+```
+
+---
+
+
+
+```r
+# install.packages("remotes")
+#remotes::install_github("liibre/sambaR")
 library(sambaR)
 library(googleLanguageR)
 song &lt;- translate_lyrics("chico buarque", "apesar de voce", "en")
